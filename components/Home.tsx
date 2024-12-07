@@ -1,7 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import FlashSales from "@/components/Flashsales";
-import Categories from "@/components/Categories";
 export default function HomePage() {
   return (
     <div>
@@ -29,13 +27,13 @@ export default function HomePage() {
       <hr/>
       <div  className="px-10 py-5 justify-around flex items-around space-x-24">
       <ul className="space-y-2">
-        <li>Women's Fashion</li>
-        <li>Men's Fashion</li>
+        <li>Women&apos;s Fashion</li>
+        <li>Men&apos;s Fashion</li>
         <li>Electronics</li>
         <li>Home & Lifestyle</li>
         <li>Medicine</li>
         <li>Sports & Outdoor</li>
-        <li>Baby's & Toys</li>
+        <li>Baby&apos;s & Toys</li>
         <li>Groceries & Pets</li>
         <li>Health & Beauty</li>
         </ul>
