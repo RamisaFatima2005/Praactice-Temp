@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
 import FlashSales from "@/components/Flashsales";
 import Categories from "@/components/Categories";
 import HomePage from "@/components/Home";
