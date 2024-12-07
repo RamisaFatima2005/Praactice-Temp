@@ -59,7 +59,7 @@ const FlashSales= () => {
 
   return (
     <div className="p-6">
-        <h1 className="text-2xl font-bold text-[#DB4444] w-[64] h-[20] ">Today's</h1>
+        <h1 className="text-2xl font-bold text-[#DB4444] w-[64] h-[20] ">Today&apos;s</h1>
         <br/>
       <header className="text-center mb-6 flex space-x-12">
         <p className="text-black font-[#36PX] font-semibold space-x-5 text-3xl">Flash Sales</p>
@@ -81,9 +81,11 @@ const FlashSales= () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {products.map((product) => (
           <div key={product.id} className="border rounded-md p-4 shadow-sm">
-            <img
+            <Image
               src={product.image}
               alt={product.title}
+              height={500}
+              width={500}
               className="w-full mb-4"
             />
             <h3 className="font-semibold text-lg">{product.title}</h3>
